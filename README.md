@@ -14,9 +14,12 @@ In this challenge, the ScoutSDK library will be used to pull data from a public 
 * Mobile first design. Make the boxes stack on smaller displays.
 * Use React. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 * Any and all other libraries or JS modules are fair game.
+* Don't push to master.
 * No more rules.
 
 __Step 1:__ Create a branch off of master with your name in it. `npm install` and start building. You can find an example API call in `/src/scout.js`.
+
+__Finished?__ Create a pull request and submit.
 
 __Extra Credit:__ Use React Router to lookup other players. For example: `localhost:3000/Not%20Tfue`
 
