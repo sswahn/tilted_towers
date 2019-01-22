@@ -1,6 +1,22 @@
 # Tilted Towers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Tilted Towers code challenge. Given the design below, create a responsive React app that displays Fortnite stats for everybody's favorite streamer, Ninja. Never heard of Fortnite. Don't like Ninja..
+
+![ron](https://user-images.githubusercontent.com/1694414/51520602-fdd13b00-1dd8-11e9-8ae9-9e326ede167b.gif)
+
+In this challenge, the ScoutSDK library will be used to pull data from a public Fortnite stats API. Documentation can be found [here](https://www.scoutsdk.com/developers/docs/getting-started/web). The app and keys have already been created and the library has already been included in the HTML. The rest is up to you. Just build, baby! See what I did there?
+
+## Design
+![stats](https://user-images.githubusercontent.com/1694414/51521378-50135b80-1ddb-11e9-933d-90ba254887e3.png)
+
+## Challenge Rules
+* Recreate the design above using Ninja's current season stats. The design is just a guideline. Your app doesn't need to keep things pixel perfect. Get creative, but keep the three box layout. One box for each game mode (solo, duo, squad).
+* Mobile first design. Make the boxes stack on smaller displays.
+* Use React. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Any and all other libraries or JS modules are fair game.
+* No more rules.
+
+__Step 1:__ Create a branch off of master with your name in it. `npm install` and start building.
 
 ## Available Scripts
 
