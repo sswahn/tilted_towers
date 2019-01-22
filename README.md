@@ -17,7 +17,7 @@ In this challenge, the ScoutSDK library will be used to pull data from a public 
 * Don't push to master.
 * No more rules.
 
-__Step 1:__ Create a branch off of master with your name in it. `npm install` and start building. You can find an example API call in `/src/scout.js`.
+__Step 1:__ Clone this repo. Create a branch off of master with your name in it. With node and NPM installed- run `npm install` and start building. You can find an example API call in `/src/scout.js`.
 
 __Finished?__ Create a pull request and submit.
 
