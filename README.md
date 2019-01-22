@@ -10,10 +10,10 @@ In this challenge, the ScoutSDK library will be used to pull data from a public 
 ![stats](https://user-images.githubusercontent.com/1694414/51521378-50135b80-1ddb-11e9-933d-90ba254887e3.png)
 
 ## Challenge Rules
-* Recreate the design above using Ninja's current season stats. The design is just a guideline. Your app doesn't need to keep things pixel perfect. Get creative, but keep the three box layout. One box for each game mode (solo, duo, squad).
+* Recreate the design above using Ninja's current season stats. The design is just a guideline. Your app doesn't need to keep things pixel perfect. Or even use all the stats shown in the design. We just want to see your process. Get creative, but keep the three box layout. One box for each game mode (solo, duo, squad).
 * Mobile first design. Make the boxes stack on smaller displays.
 * Use React. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-* Any and all other libraries or JS modules are fair game.
+* Any and all other libraries or JS packages/modules are fair game.
 * Don't push to master.
 * No more rules.
 
