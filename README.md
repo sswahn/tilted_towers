@@ -18,6 +18,8 @@ In this challenge, the ScoutSDK library will be used to pull data from a public 
 
 __Step 1:__ Create a branch off of master with your name in it. `npm install` and start building. You can find an example API call in `/src/scout.js`.
 
+__Extra Credit:__ Use React Router to lookup other players. For example: `localhost:3000/Not%20Tfue`
+
 ## Available Scripts
 
 In the project directory, you can run:
