@@ -1,0 +1,28 @@
+.scoreboard {
+  width: 400px;
+}
+
+.scoreboard-stats {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+@media only screen and (max-width:1230px) {
+  .scoreboard {
+    width: 600px;
+    max-width: 600px;
+    margin-bottom: 10px;
+  }
+
+  .scoreboard:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .scoreboard {
+    width: 400px;
+  }
+}

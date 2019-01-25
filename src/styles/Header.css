@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background: #444;
+  color: white;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #333;
+  border-bottom: 1px solid #222;
+  padding: 12px 15px;
+}
+
+.header-top h3 {
+  font-size: 14px;
+  margin: 0 100px 0 0;
+  padding: 0;
+}
+
+.header-top-content span:first-child {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.header-top-content span:last-child {
+  font-weight: bold;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  border-top: 1px solid #111;
+  padding: 10px 50px;
+  margin-top: 2px;
+}
+
+.header-bottom-content div:first-child {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header-bottom-content div:last-child {
+  font-size: 12px;
+}

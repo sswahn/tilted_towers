@@ -1,28 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './styles/App.css'
+import ScoreBoard from './components/ScoreBoard'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      solo: [],
+      duo: [],
+      squad: []
+    }
+  }
+  componentWillMount() {
+    this.props.data.then(x =>
+      this.setState({
+        solo: x.segments[5].stats,
+        duo: x.segments[3].stats,
+        squad: x.segments[4].stats
+      })
+    )
+  }
   render() {
+    if (this.state.solo.length < 1) {
+      return <div></div>
+    }
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="app">
+        <ScoreBoard mode="Solo" stats={this.state.solo} />
+        <ScoreBoard mode="Duo" stats={this.state.duo} />
+        <ScoreBoard mode="Squad" stats={this.state.squad} />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

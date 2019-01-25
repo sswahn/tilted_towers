@@ -1,0 +1,39 @@
+.stats {
+  width: 180px;
+  font-size: 12px;
+  padding: 12px 15px;
+  clear: both;
+}
+
+.stats-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+
+.stats-content span:last-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.stats-meter {
+  width: 100%;
+  height: 3px;
+  background: #222;
+}
+
+.stats div:last-child {
+  float: right;
+}
+
+@media only screen and (max-width:1230px) {
+  .stats {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .stats {
+    width: 180px;
+  }
+}

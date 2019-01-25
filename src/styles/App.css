@@ -1,0 +1,22 @@
+.app {
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  background: #ccc;
+  padding: 5px;
+}
+
+
+@media only screen and (max-width:1230px) {
+  .app {
+    display: block;
+    max-width: 610px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .app {
+    width: 410px;
+  }
+}
