@@ -15,5 +15,4 @@ const Stats = ({ stat, value, rank = 1 }) => {
   )
 }
 
-
 export default Stats
